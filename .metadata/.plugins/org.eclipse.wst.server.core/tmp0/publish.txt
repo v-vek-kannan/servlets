@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Tue Apr 29 19:35:54 IST 2025
+org.eclipse.jst.jee.server\:demo=C\:\\Users\\vivek\\Downloads\\apache-tomcat-9.0.65-windows-x64\\apache-tomcat-9.0.65\\wtpwebapps\\demo
+org.eclipse.jst.jee.server\:food=C\:\\Users\\vivek\\Downloads\\apache-tomcat-9.0.65-windows-x64\\apache-tomcat-9.0.65\\wtpwebapps\\food
+org.eclipse.jst.jee.server\:myapp=C\:\\Users\\vivek\\Downloads\\apache-tomcat-9.0.65-windows-x64\\apache-tomcat-9.0.65\\wtpwebapps\\myapp
+org.eclipse.jst.jee.server\:project=C\:\\Users\\vivek\\Downloads\\apache-tomcat-9.0.65-windows-x64\\apache-tomcat-9.0.65\\wtpwebapps\\project

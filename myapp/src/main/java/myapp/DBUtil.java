@@ -1,0 +1,15 @@
+package myapp;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBUtil {
+	public static Connection getConnection() throws Exception {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+        String url = "jdbc:mysql://localhost:3306/ecommerce_app";
+        String username = "root"; // replace with your DB user
+        String password = "root";     // replace with your DB password
+        
+        return DriverManager.getConnection(url, username, password);
+    }
+}

@@ -1,0 +1,28 @@
+package demo;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LoginServlet extends HttpServlet{
+
+	public void doGet(HttpServletRequest req ,HttpServletResponse res) throws IOException, ServletException {
+		
+		String username = req.getParameter("name");
+		String pass = req.getParameter("password");
+		
+		req.setAttribute(username, pass);
+		
+		RequestDispatcher dispatcher = req.getRequestDispatcher(username);
+		dispatcher.forward(req, res);
+		
+	}
+}
+

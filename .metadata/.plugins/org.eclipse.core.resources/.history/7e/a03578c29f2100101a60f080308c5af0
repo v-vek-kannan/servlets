@@ -1,0 +1,15 @@
+package project;
+
+public class DBUtil {
+
+	public static void main(String[] args) {
+		private static final string url="jdbc:mdbysql://localhost/3306/test";
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	
+}

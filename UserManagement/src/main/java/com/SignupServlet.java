@@ -1,0 +1,35 @@
+package com;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class SignupServlet extends HttpServlet {
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        String username = req.getParameter("username");
+        String password = req.getParameter("password");
+
+        try (Connection conn = DBUtil.getConnection()) {
+            String sql = "INSERT INTO users (username, password) VALUES (?, ?)";
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.setString(1, username);
+            stmt.setString(2, password); // (Consider hashing password in real apps)
+            int rows = stmt.executeUpdate();
+
+            if (rows > 0) {
+                res.sendRedirect("index.jsp?msg=Signup successful!");
+            } else {
+                res.sendRedirect("signup.jsp?error=Failed to sign up");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            res.sendRedirect("signup.jsp?error=User already exists or DB error");
+        }
+    }
+}

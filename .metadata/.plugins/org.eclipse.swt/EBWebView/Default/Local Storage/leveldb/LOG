@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+2025/04/29-18:46:40.511 19dc Reusing MANIFEST C:\Users\vivek\Desktop\servlet\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/04/29-18:46:40.522 19dc Recovering log #3
+2025/04/29-18:46:40.525 19dc Reusing old log C:\Users\vivek\Desktop\servlet\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+=======
+2025/05/30-19:14:05.364 15f0 Reusing MANIFEST C:\Users\vivek\Desktop\springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/30-19:14:05.376 15f0 Recovering log #3
+2025/05/30-19:14:05.381 15f0 Reusing old log C:\Users\vivek\Desktop\springworkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+>>>>>>> 1a1dd68f6d9ce0e25ebb590e7aba87ec9a6c1c0c

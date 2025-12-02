@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"version":1,"cache_data":[{"file_hash":"93ea77d27366f288","server_context":"1;f94c025f-7523-6972-b613-ce2c246c55ce;unkn:100;0.01","result":1,"response_category":"Allowed","expiration_time":1746033401554595},{"file_hash":"961f9d7bea152695","server_context":"1;f94c025f-7523-6972-b613-ce2c246c55ce;unkn:100;0.01","result":1,"response_category":"Allowed","expiration_time":1746033401078186}]}
+=======
+{"version":1,"cache_data":[{"file_hash":"93ea77d27366f288","server_context":"1;f94c025f-7523-6972-b613-ce2c246c55ce;unkn:100;0.01","result":1,"response_category":"Allowed","expiration_time":1748713445818004},{"file_hash":"961f9d7bea152695","server_context":"1;f94c025f-7523-6972-b613-ce2c246c55ce;unkn:100;0.01","result":1,"response_category":"Allowed","expiration_time":1748713445817996}]}
+>>>>>>> 1a1dd68f6d9ce0e25ebb590e7aba87ec9a6c1c0c
